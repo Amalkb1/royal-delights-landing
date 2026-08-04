@@ -247,12 +247,13 @@ function Index() {
             ))}
           </div>
           <blockquote className="mt-8 min-h-[9rem] font-display text-2xl leading-relaxed sm:text-3xl">
-            “{testimonials[slide].quote}”
+            “{testimonials[slide]?.quote}”
           </blockquote>
           <p className="mt-6 text-sm uppercase tracking-[0.28em] text-gold">
-            {testimonials[slide].name}
+            {testimonials[slide]?.name}
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">{testimonials[slide].place}</p>
+          <p className="mt-1 text-sm text-muted-foreground">{testimonials[slide]?.place}</p>
+
 
           <div className="mt-10 flex items-center justify-center gap-6">
             <button
