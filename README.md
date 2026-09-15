@@ -1,4 +1,4 @@
-# Royal Delights Landing
+# MR Delights Landing
 
 "Build a premium, luxury-feel landing page for 'Mr Delights' — a premium dry fruits and seeds brand.
 
